@@ -60,7 +60,11 @@ public class CoffeeMachine {
 
     private void handleBuyOption() {
         printCoffeeOption();
-        final int userAnswer = Integer.parseInt(scanner.nextLine());
+        String s = scanner.nextLine();
+        if ("back".equals(s)) {
+            return;
+        }
+        final int userAnswer = Integer.parseInt(s);
         CoffeeType coffeeType = CoffeeType.values()[userAnswer - 1];
         makeCoffee(coffeeType);
     }
@@ -106,7 +110,7 @@ public class CoffeeMachine {
         sb.append(coffeeTypes.length)
                 .append(" - ")
                 .append(coffeeTypes[coffeeTypes.length - 1].name().toLowerCase())
-                .append(":");
+                .append(", back to main menu:");
 
         System.out.println(sb);
     }
@@ -136,8 +140,23 @@ public class CoffeeMachine {
                 """, water, milk, coffee, cups, money);
 
     }
-
     private boolean isHaveEnoughResources(CoffeeType coffeeType) {
-
+        if (this.water < coffeeType.getRequiredWater()) {
+            System.out.println("Sorry, not enough water!");
+            return false;
+        }
+        if (this.milk < coffeeType.getRequiredMilk()) {
+            System.out.println("Sorry, not enough milk!");
+            return false;
+        }
+        if (this.coffee < coffeeType.getRequiredCoffee()) {
+            System.out.println("Sorry, not enough coffee beans!");
+            return false;
+        }
+        if (this.cups < 1) {
+            System.out.println("Sorry, not enough disposable cups!");
+            return false;
+        }
+        return true;
     }
 }
