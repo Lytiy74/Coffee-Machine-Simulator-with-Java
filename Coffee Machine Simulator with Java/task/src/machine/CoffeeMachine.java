@@ -4,13 +4,13 @@ import java.util.Scanner;
 
 public class CoffeeMachine {
     public Scanner scanner;
-    private MachineAction state;
 
     private int water;
     private int milk;
     private int coffee;
     private int cups;
     private int money;
+    private int coffeesSinceClean;
 
 
     public static void main(String[] args) {
@@ -37,18 +37,21 @@ public class CoffeeMachine {
         this.money = money;
         this.scanner = scanner;
         this.water = water;
+        this.coffeesSinceClean = 0;
     }
 
     private void run() {
+        MachineAction actionCommand;
         boolean isExitPressed = false;
         while (!isExitPressed) {
             printManuSelection();
             String userMenuSelection = scanner.nextLine();
-            state = MachineAction.valueOf(userMenuSelection.toUpperCase());
+            actionCommand = MachineAction.valueOf(userMenuSelection.toUpperCase());
 
-            switch (state) {
+            switch (actionCommand) {
                 case BUY -> handleBuyOption();
                 case FILL -> handleFillOption();
+                case CLEAN -> cleanMachine();
                 case TAKE -> handleTakeOption();
                 case REMAINING -> printRemainingSupplies();
                 case EXIT -> isExitPressed = true;
@@ -58,7 +61,16 @@ public class CoffeeMachine {
 
     }
 
+    private void cleanMachine() {
+        coffeesSinceClean = 0;
+        System.out.println("I have been cleaned!");
+    }
+
     private void handleBuyOption() {
+        if (coffeesSinceClean >= 10) {
+            System.out.println("I need cleaning!");
+            return;
+        }
         printCoffeeOption();
         String s = scanner.nextLine();
         if ("back".equals(s)) {
@@ -87,13 +99,14 @@ public class CoffeeMachine {
     }
 
     private void makeCoffee(CoffeeType coffeeType) {
-        if (isHaveEnoughResources(coffeeType)) {
+        if (canPrepareCoffee(coffeeType)) {
             System.out.println("I have enough resources, making you a coffee!");
             --cups;
             water -= coffeeType.getRequiredWater();
             milk -= coffeeType.getRequiredMilk();
             coffee -= coffeeType.getRequiredCoffee();
             money += coffeeType.getPrice();
+            ++coffeesSinceClean;
         }
     }
 
@@ -140,7 +153,7 @@ public class CoffeeMachine {
                 """, water, milk, coffee, cups, money);
 
     }
-    private boolean isHaveEnoughResources(CoffeeType coffeeType) {
+    private boolean canPrepareCoffee(CoffeeType coffeeType) {
         if (this.water < coffeeType.getRequiredWater()) {
             System.out.println("Sorry, not enough water!");
             return false;
