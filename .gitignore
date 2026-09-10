@@ -4,3 +4,75 @@
 /Coffee Machine Simulator with Java/task/build/
 /Coffee Machine Simulator with Java/task/out/
 /Coffee Machine Simulator with Java/task/out/production/classes/
+/.idea/.gitignore
+/.idea/frameworkLessonHistory/storage_v3/objects/86/8603ac6689fa8c5afb7a7e8619159c5fe0c9b915eb9116c08fabf3c0ea830220
+/.idea/frameworkLessonHistory/storage_v3/objects/48/48099ec1c3eb94c9708949dc8e6099daf80d02832af8e34bf5f3d95ecbde8231
+/.idea/frameworkLessonHistory/storage_v3/objects/a8/a8cbdbdc47858c4dda255019f8f272c2c93f5f4103233d82ad568be67aa2dc8f
+/Coffee Machine Simulator with Java/task/src/machine/BrewResult.java
+/.idea/frameworkLessonHistory/storage_v3/objects/cc/cc3d7defaee9c34122c084c9e79e914c4c504ebee31bb77dfd2ae791c720ac84
+/.idea/checkstyle-idea.xml
+/.idea/modules/Coffee Machine Simulator with Java/task/Coffee_Machine_Simulator_with_Java.Coffee_Machine_Simulator_with_Java-task.iml
+/.idea/modules/Coffee Machine Simulator with Java/task/Coffee_Machine_Simulator_with_Java.Coffee_Machine_Simulator_with_Java-task.main.iml
+/.idea/modules/Coffee Machine Simulator with Java/task/build/classes/java/Coffee_Machine_Simulator_with_Java.Coffee_Machine_Simulator_with_Java-task-build-classes-java.iml
+/.idea/modules/Coffee Machine Simulator with Java/task/build/classes/java/Coffee_Machine_Simulator_with_Java.Coffee_Machine_Simulator_with_Java-task-build-classes-java.main.iml
+/.idea/modules/Coffee Machine Simulator with Java/task/build/generated/sources/annotationProcessor/java/Coffee_Machine_Simulator_with_Java.Coffee_Machine_Simulator_with_Java-task-build-generated-sources-annotationProcessor-java.iml
+/.idea/modules/Coffee Machine Simulator with Java/task/build/generated/sources/annotationProcessor/java/Coffee_Machine_Simulator_with_Java.Coffee_Machine_Simulator_with_Java-task-build-generated-sources-annotationProcessor-java.main.iml
+/.idea/modules/Coffee Machine Simulator with Java/task/build/generated/sources/headers/java/Coffee_Machine_Simulator_with_Java.Coffee_Machine_Simulator_with_Java-task-build-generated-sources-headers-java.iml
+/.idea/modules/Coffee Machine Simulator with Java/task/build/generated/sources/headers/java/Coffee_Machine_Simulator_with_Java.Coffee_Machine_Simulator_with_Java-task-build-generated-sources-headers-java.main.iml
+/.idea/modules/Coffee Machine Simulator with Java/task/build/reports/tests/Coffee_Machine_Simulator_with_Java.Coffee_Machine_Simulator_with_Java-task-build-reports-tests.iml
+/.idea/modules/Coffee Machine Simulator with Java/task/build/reports/tests/Coffee_Machine_Simulator_with_Java.Coffee_Machine_Simulator_with_Java-task-build-reports-tests.main.iml
+/.idea/modules/Coffee Machine Simulator with Java/task/build/test-results/Coffee_Machine_Simulator_with_Java.Coffee_Machine_Simulator_with_Java-task-build-test-results.iml
+/.idea/modules/Coffee Machine Simulator with Java/task/build/test-results/Coffee_Machine_Simulator_with_Java.Coffee_Machine_Simulator_with_Java-task-build-test-results.main.iml
+/.idea/modules/Coffee Machine Simulator with Java/task/build/tmp/Coffee_Machine_Simulator_with_Java.Coffee_Machine_Simulator_with_Java-task-build-tmp.iml
+/.idea/modules/Coffee Machine Simulator with Java/task/build/tmp/Coffee_Machine_Simulator_with_Java.Coffee_Machine_Simulator_with_Java-task-build-tmp.main.iml
+/.idea/modules/Coffee_Machine_Simulator_with_Java.iml
+/.idea/modules/util/Coffee_Machine_Simulator_with_Java.util.iml
+/.idea/modules/util/Coffee_Machine_Simulator_with_Java.util.main.iml
+/Coffee Machine Simulator with Java/task/src/machine/CoffeeMachineService.java
+/.idea/compiler.xml
+/.idea/frameworkLessonHistory/storage_v3/objects/d1/d1ff12215d26fe8d8b830eac4f292689139e03b62e42676f4b8c7b0ea4deb988
+/.idea/externalDependencies.xml
+/.idea/gradle.xml
+/.idea/libraries/Gradle__com_github_hyperskill_hs_test_release_SNAPSHOT.xml
+/.idea/libraries/Gradle__com_github_javaparser_javaparser_core_3_28_2.xml
+/.idea/libraries/Gradle__com_google_code_gson_gson_2_10_1.xml
+/.idea/libraries/Gradle__commons_codec_commons_codec_1_11.xml
+/.idea/libraries/Gradle__commons_logging_commons_logging_1_2.xml
+/.idea/libraries/Gradle__junit_junit_4_13_2.xml
+/.idea/libraries/Gradle__org_apache_httpcomponents_httpclient_4_5_14.xml
+/.idea/libraries/Gradle__org_apache_httpcomponents_httpcore_4_4_16.xml
+/.idea/libraries/Gradle__org_assertj_assertj_core_3_17_2.xml
+/.idea/libraries/Gradle__org_assertj_assertj_swing_3_17_1.xml
+/.idea/libraries/Gradle__org_assertj_assertj_swing_junit_3_17_1.xml
+/.idea/libraries/Gradle__org_easytesting_fest_reflect_1_4_1.xml
+/.idea/libraries/Gradle__org_easytesting_fest_util_1_2_5.xml
+/.idea/libraries/Gradle__org_hamcrest_hamcrest_core_1_3.xml
+/.idea/frameworkLessonHistory/storage_v3/HEAD
+/Coffee Machine Simulator with Java/task/src/machine/Inventory.java
+/Coffee Machine Simulator with Java/lesson-info.yaml
+/.idea/misc.xml
+/.idea/modules.xml
+/.idea/frameworkLessonHistory/storage_v3/refs/stage_176
+/.idea/frameworkLessonHistory/storage_v3/refs/stage_177
+/.idea/frameworkLessonHistory/storage_v3/refs/stage_178
+/.idea/frameworkLessonHistory/storage_v3/refs/stage_179
+/.idea/frameworkLessonHistory/storage_v3/refs/stage_180
+/Coffee Machine Simulator with Java/Add functions to your machine/task.html
+/Coffee Machine Simulator with Java/Brush up your code/task.html
+/Coffee Machine Simulator with Java/Calculate the ingredients/task.html
+/Coffee Machine Simulator with Java/Estimate the number of servings/task.html
+/Coffee Machine Simulator with Java/Keep track of the supplies/task.html
+/Coffee Machine Simulator with Java/Make a first cup/task.html
+/Coffee Machine Simulator with Java/Add functions to your machine/task-info.yaml
+/Coffee Machine Simulator with Java/Brush up your code/task-info.yaml
+/Coffee Machine Simulator with Java/Calculate the ingredients/task-info.yaml
+/Coffee Machine Simulator with Java/Estimate the number of servings/task-info.yaml
+/Coffee Machine Simulator with Java/Keep track of the supplies/task-info.yaml
+/Coffee Machine Simulator with Java/Make a first cup/task-info.yaml
+/Coffee Machine Simulator with Java/Add functions to your machine/task-remote-info.yaml
+/Coffee Machine Simulator with Java/Brush up your code/task-remote-info.yaml
+/Coffee Machine Simulator with Java/Calculate the ingredients/task-remote-info.yaml
+/Coffee Machine Simulator with Java/Estimate the number of servings/task-remote-info.yaml
+/Coffee Machine Simulator with Java/Keep track of the supplies/task-remote-info.yaml
+/Coffee Machine Simulator with Java/Make a first cup/task-remote-info.yaml
+/.idea/vcs.xml
